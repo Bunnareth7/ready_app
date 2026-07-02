@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class SettingScreen extends StatelessWidget {
-   SettingScreen({super.key});
+   const SettingScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -27,12 +27,12 @@ class SettingScreen extends StatelessWidget {
                   Icon(Icons.language, size: 30, color: Colors.grey),
                   SizedBox(width: 20),
                   Center(
-                    child: Text('Languages', style: TextStyle(fontSize: 18)),
+                    child: Text('Languages', style: TextStyle(fontSize: 18, fontWeight: FontWeight.w700)),
                   ),
                   Spacer(),
-                  Text('English'),
+                  Text('English', style:TextStyle(color: Colors.grey) ,),
                   SizedBox(width: 10),
-                  Icon(Icons.arrow_forward_ios, size: 20, color: Colors.black),
+                  Icon(Icons.arrow_forward_ios, size: 20, color: Colors.grey),
                 ],
               ),
             ),

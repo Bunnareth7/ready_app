@@ -17,13 +17,13 @@ class MyApp extends StatelessWidget {
       title: 'Ready App',
       initialRoute: '/login',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+       
       ),
-      // Start with Login Screen
+      
       home: const LoginScreen(),
       routes: {
         '/login': (context) => const LoginScreen(),
-        '/home': (context) =>  HomeScreen(), // Your MyApp screen
+        '/home': (context) =>  HomeScreen(), 
         '/settings': (context) =>  SettingScreen(),
       },
     );
